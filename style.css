@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+/* nav styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 15px 10px 85px;
+  
+
+}
+
+.nav-title{
+    font-size: 35px;
+    font-weight: 800;
+
+}
+.primary-color{
+ color: #bd15a6;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+   list-style: none;
+   margin-left: 50px;
+}
+
+.btn-primary{
+    height: 50px;
+    width: 100px;
+    background-color: #bd15a7a9;
+    color: aliceblue;
+    border: 0;
+    text-decoration: none;
+}
+ .btn-primary a{
+    text-decoration: none;
+
+ }
+.header{
+    background: #ebe4e4d3;
+    background-image: url('header_bg.png'),url('developer.png');
+    background-repeat: no-repeat;
+    /* bg position last (bottom left for 2nd img ) */
+    background-position: bottom right,left;
+}
+
+
+ /* banner */
+ .banner{
+    display: flex;
+    align-items: center;
+    margin: 0 120px;
+ }
+ .title{
+    color: #272323cb;
+   font-size: 45px;
+   font-weight: 700;
+   margin-bottom: 15px;
+   margin-top: 10px;
+
+ }
+ .sub-title{
+    color: #272323cb;
+    font-size: 30px;
+ }
+ .des{
+    font-size: 15px;
+    color: #272323af;
+    margin-bottom: 30px;
+ }
+/* about Me section */
+.main-sec{
+    max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+
+}
+.about{
+margin-top: 130px;
+background-color: #bb1ea625;
+border-radius: 10px;
+padding: 130px 150px;
+ext-align: center;
+
+}
+.sec-title{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.sec-dec{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+/* more info like( name, mail birthday) */
+.about-info-container{
+display: flex;
+justify-content: space-around;
+
+
+}
+.about .info-title {
+    font-size: 20px;
+    color: #272323af;
+}
+.info-des{
+    font-size: 15px;
+    color: #666666af;
+}
+/* what i do section */
+.what{
+    margin-top: 130px;
+   
+}
+.skills-container{
+    display: flex;
+    gap: 20px;
+}
+.skills{
+  background:#ffff;
+    box-shadow: 0 0 1px 0px #df94cc ;
+    border-radius: 5px;
+    padding: 30px;
+    
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    color: #272323cb;
+    margin-top: 20px;
+}
+.skills-dec{
+    font-size: 18px;
+    color: #423b3bd2;
+    margin-top: 10px;
+}
+/* resume style */
+.resume-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+    background: #74416f11;
+}
+.resume-title{
+    margin-top: 50px;
+    font-size: 25px;
+    color: rgb(78, 72, 72);
+}
+.r-title{
+color: #050404af;
+font-size: 20px;
+margin-bottom: 10px;
+}
+.r-sub-title{
+    font-size: 18px ;
+color: #423b3bd2;
+margin-bottom: 8px;
+}
+.r-des{
+color: #272323cb;
+}
+.r-iteam{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.r-button{
+    margin-top: 50px;
+    text-align: center;
+}
+/* contact style */
+.contact{
+display: flex;
+gap: 100px;
+background: #74416f11;
+padding: 130px 200px ;
+}.contact .sec-title{  
+    text-align: left;
+}
+
+.contact input,textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+input{
+    height: 64px;
+}
